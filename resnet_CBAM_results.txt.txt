@@ -1,0 +1,9 @@
+steps_per_epoch=round(6112 /10),
+epochs=60,
+validation_steps=round(1785 /10), workers=24)
+
+Epoch 60/60
+611/611 [==============================] - 207s 334ms/step - loss: 0.6879 - categorical_accuracy: 0.6781 - val_loss: 3.8047 - val_categorical_accuracy: 0.3566
+
+ loss: 406.06%
+ categorical_accuracy: 35.33%
