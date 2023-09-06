@@ -13,7 +13,6 @@ targetCancer = 'MINI-DDSM-Complete-JPEG-8-test/Cancer'
 random.seed()                       # system time
 
 # THIS WILL DELETE THE FILES IN THE ORIGINAL LOCATION
-# SAVE BACKUPS
 for filename in os.listdir(directoryNormal):
     if random.randrange(0,100) > 90:
         # 10% split on testing
